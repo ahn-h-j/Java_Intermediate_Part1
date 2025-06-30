@@ -1,4 +1,4 @@
-package exception.ex3;
+package exception.ex4;
 import exception.ex2.NetworkClientExceptionV2;
 import exception.ex4.NetworkServiceV4;
 import exception.ex4.SendExceptionV4;
@@ -20,7 +20,6 @@ public class MainV4 {
             } catch (Exception e) {
                 exceptionHandler(e);
             }
-            networkService.sendMessage(input);
             System.out.println();
         }
         System.out.println("프로그램을 정상 종료합니다.");
